@@ -20,6 +20,11 @@ inputs:
     description: "Cancel all actions but the last one"
     required: false
     default: 'false'
+  all:
+    description: "Cancel all actions"
+    required: false
+    default: 'false'
 runs:
   using: 'node16'
   main: 'dist/index.js'
+
